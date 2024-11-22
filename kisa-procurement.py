@@ -18,9 +18,9 @@ from urllib3.exceptions import InsecureRequestWarning
 warnings.filterwarnings("ignore", category=InsecureRequestWarning)
 
 emailID = 'shds.apt@gmail.com'
-emailPW = 'fimtapsmuznaqqrp'
+emailPW = '*'
 
-slack_token = 'xoxb-6113261522434-6133696751331-zLY7lIZuX3R1QoPSn01La1w2'
+slack_token = '*'
 client = WebClient(token=slack_token)
 
 channel_id = 'C062WSL797Z'
