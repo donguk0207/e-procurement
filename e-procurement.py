@@ -20,7 +20,7 @@ all_results = set()
 emailID = 'shds.apt@gmail.com'
 emailPW = 'fimtapsmuznaqqrp'
 
-slack_token = 'xoxb-6113261522434-6133696751331-zLY7lIZuX3R1QoPSn01La1w2'
+slack_token = '*'
 client = WebClient(token=slack_token)
 
 keyword_channel_mapping = {
@@ -71,7 +71,7 @@ for keyword in search_keywords:
         print(f"★★★{description} 정보★★★")
         full_url = f'{base_url}{url}'
         params ={
-            'serviceKey' : '2viHXNHvP6y+firz6WOFdNcwoI4qIS/DfXG8xTPWe/h+B7+e8cXEd164KP22cpswl/tORm2eY5MKhVAvAdiE/A==',
+            'serviceKey' : '*',
             'numOfRows' : '100',
             'pageNo' : '1',
             'inqryDiv' : '1',
