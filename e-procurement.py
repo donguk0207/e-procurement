@@ -18,7 +18,7 @@ search_keywords = ['정보보안', '정보보호', '모의해킹', '취약점', 
 all_results = set()
 
 emailID = 'shds.apt@gmail.com'
-emailPW = 'fimtapsmuznaqqrp'
+emailPW = '*'
 
 slack_token = '*'
 client = WebClient(token=slack_token)
